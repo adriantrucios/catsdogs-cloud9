@@ -1,2 +1,2 @@
 # catsdogs-cloud9
-# step 6
+# first step
