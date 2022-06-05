@@ -3,6 +3,7 @@ EXPOSE 8081
 RUN apt-get update -y && \
   apt-get upgrade -y && \
   apt-get install -y curl && \
+  apt-get install iputils-ping -y && \
   cd /tmp && \
   apt-get install awscli -y && \
   rm -rf /tmp/* && \
